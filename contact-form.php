@@ -2,7 +2,6 @@
 
 require_once("./include/fgcontactform.php");
 
-
 $recipient = "sityemilyshah@gmail.com";
 $successPage = "index.html/";
 

@@ -996,3 +996,8 @@ ul.navbar-nav > li > a {
 #details {
   margin-top: 30px;
 }
+
+#letter {
+  position: absolute;
+  margin-left: 150px;
+}
