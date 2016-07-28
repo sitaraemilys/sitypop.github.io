@@ -12,7 +12,7 @@ $('.navigation').singlePageNav({
     });
 
     $.noConflict();
-     $('.nav a').on('click', function(){ 
+     $('.nav a').on('click', function(){
         if($('.navbar-toggle').css('display') !='none'){
             $(".navbar-toggle").trigger( "click" );
         }
@@ -23,8 +23,7 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 
- 
- 
+
 // wow animation
 
  new WOW().init();
