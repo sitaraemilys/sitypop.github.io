@@ -1,0 +1,42 @@
+/* Contact */
+
+/* Title */
+
+#section-contact-head{
+  @extend %header;
+}
+
+/* Content */
+
+.contact-info {
+    background: $white;
+    padding: 35px 30px;
+    border-radius: 3px;
+    box-shadow: 0 9px 21px 0 rgba($black, 0.15);
+
+  ul li {
+    -webkit-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+    margin-bottom: 30px;
+  }
+}
+
+.contact-socail a {
+    border: 1px solid   $alto;
+    display: block;
+    width: 25px;
+    height:25px;
+    text-align: center;
+    background: $alto;
+    border-radius: 3px;
+}
+
+#details {
+  margin-top: 30px;
+}
+
+#letter {
+  position: absolute;
+  margin-left: 150px;
+}

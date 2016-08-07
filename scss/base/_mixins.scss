@@ -1,0 +1,23 @@
+// Web fonts
+
+@mixin font-face($family) {
+  @font-face {
+      font-family: $family;
+      src:url('#{$path-font}/#{$family}.eot');
+      src:url('#{$path-font}/#{$family}.eot?#iefix') format('embedded-opentype'),
+          url('#{$path-font}/#{$family}.woff') format('woff'),
+          url('#{$path-font}/#{$family}.ttf') format('truetype'),
+          url('#{$path-font}/#{$family}.svg#Simple-Line-Icons') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  }
+}
+
+// Text mixin
+
+@mixin text($size, $l-height, $spacing: null, $weight: null){
+  font-size: $size;
+  letter-spacing: $spacing;
+  line-height: $l-height;
+  font-weight: $weight;
+}
