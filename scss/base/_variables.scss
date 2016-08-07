@@ -22,4 +22,10 @@ $color-border       : $tundora;
 
 
 // Asset paths
-$path-font  : '../fonts'
+$path-font  : '../fonts';
+
+// Media query break points
+
+$brk-l   :('min-width: 1200px');
+$brk-ms  :('min-width: 992px');
+$brk-xs  :('max-width: 480px');
