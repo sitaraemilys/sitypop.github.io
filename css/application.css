@@ -302,7 +302,6 @@ ul.navbar-nav > li > a {
 .experience-inner h3 {
   margin-top: 12px;
   position: relative;
-  padding-left: 35px;
   margin-bottom: 10px; }
   .experience-inner h3:before {
     position: absolute;
@@ -556,5 +555,28 @@ ul.navbar-nav > li > a {
   src: url("../fonts/Simple-Line-Icons.eot?#iefix") format("embedded-opentype"), url("../fonts/Simple-Line-Icons.woff") format("woff"), url("../fonts/Simple-Line-Icons.ttf") format("truetype"), url("../fonts/Simple-Line-Icons.svg#Simple-Line-Icons") format("svg");
   font-weight: normal;
   font-style: normal; }
+/* Media Queries */
+@media (max-width: 480px) {
+  #home-section {
+    background: url("../images/bg/textures.jpg");
+    background-size: 250%;
+    position: relative;
+    overflow: hidden; }
+
+  #description {
+    display: none; }
+
+  #title {
+    font-size: 15px; }
+
+  #penguin {
+    display: none; }
+
+  #history {
+    margin-bottom: -3em;
+    margin-top: -3em; }
+
+  .about-inner {
+    margin-bottom: 3em; } }
 
 /*# sourceMappingURL=application.css.map */
