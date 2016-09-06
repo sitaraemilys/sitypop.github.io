@@ -26,13 +26,47 @@
     margin-top: -3em;
   }
 
+  #web {
+    display: none;
+  }
+
+  #education {
+    margin-left: 0px;
+  }
+
+  #education-img,
+  #experience-img {
+    display: none;
+  }
+
+  #mobile {
+    display: inline;
+  }
+
+  .accordian,
+  .technologies-inner {
+    margin-top: -3em;
+  }
+
   .about-inner {
     margin-bottom: 3em;
   }
 
   .experience-inner {
-
+    margin-top: -9em;
   }
+
+  #letter {
+    display: none;
+  }
+
+  .contact-info {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+  }
+
+
 
 }
 
