@@ -356,6 +356,9 @@ ul.navbar-nav > li > a {
       .panel-title a.collapsed::before {
         background: #fff; }
 
+#education {
+  margin-left: 40px; }
+
 /* Technologies */
 /* Title */
 /* Content */
