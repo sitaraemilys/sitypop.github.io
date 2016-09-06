@@ -2,13 +2,13 @@
 
 /* Title */
 
-#section-services-head{
+#section-technologies-head{
   @extend %header;
 }
 
 /* Content */
 
-.services-inner{
+.technologies-inner{
   text-align: center;
   padding: 30px 0px;
 
@@ -41,6 +41,6 @@
 .fa-table:before,
 .icon-microphone:before,
 .icon-diamond:before,
-.fa-female:before {
+.fa-paint-brush:before {
   color: $color-primary;
 }
