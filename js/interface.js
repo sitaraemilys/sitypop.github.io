@@ -30,3 +30,16 @@ $('.navbar-collapse ul li a').click(function() {
 
 
  });
+
+ // ghost typer
+
+//  $("#title").ghosttyper({
+//   messages: ['Frontend Developer', 'Web Designer', 'Artist', 'Surfer Yogi Chick' ],
+//   // animation speed for typing effect
+//   timeWrite: 100,
+//   // animation speed for deleting effect
+//   timeDelete: 50,
+//   // animation delay
+//   timePause: 1000,
+//   callback: function(){}
+// });
