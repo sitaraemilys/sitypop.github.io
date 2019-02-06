@@ -100,23 +100,6 @@ html {
     z-index: 2;
 }
 
-@media (max-width: 321px) {
-    .header-container {
-        width: 290px;
-        top: 150px;
-    }
-
-    .icons-container {
-        right: 0;
-    }
-
-    .gif {
-        height: 200px;
-        bottom: 60px;
-    }
-
-}
-
 @media (min-width: 321px) and (max-width: 415px) {
     .header-container {
         width: 300px;
@@ -129,4 +112,22 @@ html {
     .gif {
         bottom: 20px;
     }
+}
+
+
+@media (max-width: 321px) {
+    .header-container {
+        width: 290px;
+        top: 150px;
+    }
+
+    .icons-container {
+        right: 0;
+    }
+
+    .gif {
+        height: 200px;
+        bottom: 90px;
+    }
+
 }
