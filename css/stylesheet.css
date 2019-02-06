@@ -103,6 +103,7 @@ html {
 @media (max-width: 321px) {
     .header-container {
         width: 290px;
+        top: 150px;
     }
 
     .icons-container {
