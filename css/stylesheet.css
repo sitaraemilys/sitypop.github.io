@@ -49,8 +49,8 @@ html {
     z-index: 2;
     position: relative;
     top: 250px;
-    background-image: url("../images/copy/header.png");
-    height: 100px;
+    background-image: url("../images/copy/header-2.png");
+    height: 150px;
     width: 500px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -78,4 +78,10 @@ html {
     bottom: 10px;
     right: 0;
     z-index: 2;
+}
+
+.gif {
+    height: 250px;
+    position: relative;
+    top: 250px;
 }
