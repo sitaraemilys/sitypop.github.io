@@ -97,6 +97,7 @@ html {
 .gif {
     height: 250px;
     position: relative;
+    margin-left: 50px;
     z-index: 2;
 }
 
@@ -111,6 +112,7 @@ html {
 
     .gif {
         bottom: 20px;
+        margin-left: 0;
     }
 }
 
