@@ -14,6 +14,7 @@ body {
     font-family: 'Oxygen', sans-serif;
     font-weight: normal;
     letter-spacing: 1px;
+    overflow: hidden;
 }
 
 html {
@@ -57,31 +58,73 @@ html {
     margin: 0 auto;
 }
 
-.icons-container {
-    display: flex;
-    flex-direction: row;
-}
-
 .icon {
-    height: 50px;
-    width: 50px;
+    width: 30px;
     margin-right: 5px;
     margin-left: 5px;
 }
 
-.icon:last-child {
-    margin-right: 10px;
+.github {
+    margin-right: 5px;
+    margin-left: 0px;
+    width: 40px;
+}
+
+.message {
+    width: 40px;
+    margin-top: 10px;
+}
+
+.linkedin {
+    margin-top: 5px;
+    margin-right: 2px;
+}
+
+.dribbble {
+    margin-top: 6px
 }
 
 .icons-container {
+    display: flex;
+    flex-direction: row;
     position: absolute;
-    bottom: 10px;
-    right: 0;
-    z-index: 2;
+    top: 10px;
+    right: 60px;
+    z-index: 0;
 }
 
 .gif {
     height: 250px;
     position: relative;
-    top: 250px;
+    z-index: 2;
+}
+
+@media (max-width: 321px) {
+    .header-container {
+        width: 290px;
+    }
+
+    .icons-container {
+        right: 0;
+    }
+
+    .gif {
+        height: 200px;
+        bottom: 60px;
+    }
+
+}
+
+@media (min-width: 321px) and (max-width: 415px) {
+    .header-container {
+        width: 300px;
+    }
+
+    .icons-container {
+        right: 0;
+    }
+
+    .gif {
+        bottom: 20px;
+    }
 }
