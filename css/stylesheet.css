@@ -39,7 +39,7 @@ html {
     z-index: 1;
     float: right;
     left: -30px;
-    top: 100px;
+    top: -200px;
 }
 
 .shape-two {
@@ -50,13 +50,24 @@ html {
 .header-container {
     z-index: 2;
     position: relative;
-    top: 250px;
-    background-image: url("../images/copy/header-2.png");
+    top: 150px;
     height: 150px;
     width: 500px;
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0 auto;
+    background-image: url("../images/copy/copy.png");
+}
+
+.logo-container {
+    z-index: 2;
+    position: relative;
+    background-image: url("../images/icons/logo_v2.png");
+    height: 150px;
+    width: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 60px;
 }
 
 .icon {
@@ -65,31 +76,11 @@ html {
     margin-left: 5px;
 }
 
-.github {
-    margin-right: 5px;
-    margin-left: 0px;
-    width: 40px;
-}
-
-.message {
-    width: 40px;
-    margin-top: 10px;
-}
-
-.linkedin {
-    margin-top: 5px;
-    margin-right: 2px;
-}
-
-.dribbble {
-    margin-top: 6px
-}
-
 .icons-container {
     display: flex;
     flex-direction: row;
     position: absolute;
-    top: 10px;
+    top: 20px;
     right: 60px;
     z-index: 0;
 }
@@ -106,13 +97,18 @@ html {
         width: 300px;
     }
 
-    .icons-container {
-        right: 0;
+    .gif {
+        bottom: 200px;
+        margin-left: 0;
     }
 
-    .gif {
-        bottom: 20px;
-        margin-left: 0;
+    .logo-container {
+        height: 75px;
+        left: 20px;
+    }
+
+    .shape-one {
+        top: 0;
     }
 }
 
@@ -124,12 +120,22 @@ html {
     }
 
     .icons-container {
-        right: 0;
+        right: 20px;
     }
 
     .gif {
         height: 200px;
-        bottom: 90px;
+        bottom: 100px;
+    }
+
+    .logo-container {
+        height: 75px;
+        left: 20px;
+    }
+
+    .shape-one {
+        height: 200px;
+        top: 0;
     }
 
 }
