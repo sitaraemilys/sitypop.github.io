@@ -15,6 +15,7 @@ body {
     font-weight: normal;
     letter-spacing: 1px;
     overflow: hidden;
+    position: relative;
 }
 
 html {
@@ -126,7 +127,7 @@ html {
 
     .gif {
         height: 200px;
-        bottom: 200px;
+        bottom: 150px;
     }
 
     .logo-container {
