@@ -14,9 +14,13 @@
 }
 
 .vertical-links a {
-  text-decoration: underline;
+  text-decoration: none;
   color: black;
   width: fit-content;
+}
+
+.vertical-links a:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 600px) {
