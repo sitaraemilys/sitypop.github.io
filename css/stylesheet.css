@@ -14,7 +14,7 @@
 }
 
 .vertical-links a {
-  text-decoration: none;
+  text-decoration: underline;
   color: black;
   width: fit-content;
 }
@@ -26,8 +26,9 @@
   }
 
   .vertical-links a {
-    font-size: 11px;
+    font-size: 12px;
     padding: 6px 10px;
+    gap: 0;
   }
 }
 
@@ -63,7 +64,7 @@ html {
     z-index: 1;
     float: right;
     left: -30px;
-    top: -200px;
+    top: 30%;
 }
 
 .shape-two {
