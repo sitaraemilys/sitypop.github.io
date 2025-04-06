@@ -2,8 +2,8 @@
 
 .vertical-links {
   position: absolute;
-  right: 20px;
-  bottom: 20%;
+  right: 30%;
+  bottom: 40%;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -17,10 +17,6 @@
   text-decoration: none;
   color: black;
   width: fit-content;
-}
-
-.vertical-links a:hover {
-  transform: translateX(-4px);
 }
 
 @media (max-width: 600px) {
@@ -40,12 +36,6 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    line-height: 24px;
-    color: #6a6a6a;
-    font-size: 13px;
-    font-family: 'Oxygen', sans-serif;
-    font-weight: normal;
-    letter-spacing: 1px;
     overflow: hidden;
     position: relative;
 }
